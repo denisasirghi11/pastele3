@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-size: cover;
+    background-position: center;
+    color: #7c5555;
+  }
+  
+  .overlay {
+    background-color: rgba(241, 213, 213, 0.6);
+    padding: 50px;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  .home {
+    background-image: url('https://media.istockphoto.com/id/1473272808/ro/fotografie/o-colec%C8%9Bie-de-ou%C4%83-de-pa%C8%99te-pictate-care-s%C4%83rb%C4%83toresc-un-pa%C8%99te-fericit-%C3%AEntr-o-zi-de.jpg?s=612x612&w=0&k=20&c=-icRCghRI9MY1XwwMatUOEcyrYSF6ajDKT8VYWuRfWQ='); /* fundal Paște */
+  }
+  .traditie {
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: rgba(235, 181, 181, 0.15);
+    border-radius: 12px;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .traditie img {
+    width: 200px;
+    border-radius: 10px;
+  }
+  
+  .traditie p {
+    color: #7e5252;
+    text-align: left;
+  }
+  
+  
+  
+  h1, h2 {
+    color: #ffc402;
+  }
+  
+  ul {
+    list-style-type: square;
+    text-align: left;
+    max-width: 600px;
+    margin: auto;
+    padding-left: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    margin: 20px 10px;
+    padding: 10px 20px;
+    background-color: #f6d1c1;
+    color: #2d3436;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+    font-weight: bold;
+  }
+  
+  .button:hover {
+    background-color: #fdcb6e;
+    color: #000;
+  }
+  
+  .dish {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.15);
+    margin: 20px auto;
+    max-width: 900px;
+    padding: 20px;
+    border-radius: 12px;
+  }
+  
+  .dish img {
+    width: 200px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .dish div {
+    text-align: left;
+  }
+  
